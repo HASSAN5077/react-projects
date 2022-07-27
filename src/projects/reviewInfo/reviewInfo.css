@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.reviewContainer{
+    background: hsl(205, 100%, 96%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* text-align: center; */
+    padding: 2rem;
+}
+.underline{
+    width: 10rem;
+    height: .3rem;
+    border-radius: .2rem;
+
+    margin-top: .5rem;
+    background: hsl(205, 78%, 60%);
+}
+.reviewContainer .title{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+.review{
+    width: 40rem;
+    height: 30rem;
+    text-align: center;
+    text-align: center;
+    background: #fff;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+.review .image{
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.quote-icon{
+    position: absolute;
+    color: hsl(205, 78%, 60%);
+    font-size: 2rem;
+    top: 2rem;
+    left: -1rem;
+    z-index: 10000;
+}
+.author{
+    color: hsl(205, 78%, 60%);
+    margin: 1rem 0 0.5rem;
+    font-size: 1.5rem;
+}
+.job{
+    font-size: #333;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.text{
+    margin: 0.5rem 1rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.button-container{
+    margin-top: 1rem 0;
+}
+.button-container button{
+    color: hsl(205, 78%, 60%);
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.random-btn{
+    background: hsl(205, 78%, 60%);
+    font-size: 1.7rem;
+    margin: 1rem 0;
+    padding: .7rem 2rem;
+    color: #fff;
+    border-radius: .5rem;
+    cursor: pointer;
+}

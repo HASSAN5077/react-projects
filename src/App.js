@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import Birthday from "./projects/birthday/Birthday";
+// import Stopwatch from "./projects/stopwatch/Stopwatch";
+// import TourMain from "./projects/tour-fetch/TourMain";
+// import ReviewMain from "./projects/reviewInfo/ReviewMain";
+// import AccordionMain from "./projects/accordion/AccordionMain";
+// import Menu from "./projects/MenuDisplay/MenuMain";
+import AxiosMain from './axios/AxiosMain'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <Birthday />
+    // <Stopwatch />
+    // <TourMain />
+    // <ReviewMain />
+    // <AccordionMain />
+    // 
+    <AxiosMain />
   );
 }
 

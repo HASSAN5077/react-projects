@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
+    list-style: none;
+}
+main{
+    width: 100vw;
+    min-height: 100vh;
+    background:#c4f2f5 ;
+    padding: 2rem;
+}
+.title{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title h2{
+    font-size: 3rem;
+    color:#333 ;
+}
+.underline{
+    width: 12rem;
+    height: .4rem;
+    margin: .5rem 0;
+    border-radius: .5rem;
+    background: #1f8e96;
+}
+.menu-section{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.menu-section .menu{
+    width: 40rem;
+    height: 15rem;
+    display: flex;
+
+}
+.menu-section .menu img{
+    height: 100%;
+    object-fit: cover;
+    width: 40%;
+    border: .5rem solid #f0932b;
+}
+.menu-section .menu .info{
+    padding: .7rem;
+    /* position: relative; */
+    width: 100%;
+}
+.menu-section .menu .info header{
+    display: flex;
+    padding-bottom: .5rem;
+    justify-content: space-between;
+    border-bottom: .1rem solid #535c68;
+}
+.menu header h4{
+    font-size: 1.5rem;
+}
+.menu header span{
+    color: #f0932b;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.menu .info p{
+    margin-top: 2rem;
+}
+.btn-cont{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filter-btn{
+    padding: 1rem 2rem;
+    margin: 0 1.5rem;
+    background: none;
+    color: #f0932b;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: .2rem;
+}
+.filter-btn:hover{
+    background: #f0932b;
+    color: #fff;
+}
+.filter-btn:active{
+    border: .2rem solid #666;
+    background: none;
+}

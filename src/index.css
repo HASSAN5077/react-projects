@@ -1,13 +1,65 @@
-body {
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+}
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background: #34495e; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.birthday{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top:3rem;
+  align-items: center;
+}
+.container{
+  background: #fff;
+  padding: 1rem;
+  width: 40vw;
+  background: #eee;
+}
+.container h3{
+  color: #666;
+  font-size: 1.5rem;
+
+  margin-bottom: 1rem;
+}
+.person{
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  border-bottom: .1rem solid #34495e;
+  margin-bottom: 0.2rem;
+}
+.person img{
+  height: 4rem;
+  width: 4rem;
+  object-fit: cover;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+.clear{
+  margin: 1rem 0;
+  display: block;
+  background: #34495e;
+  width: 100%;
+  font-size: 2rem;
+  color: #fff;padding: .5rem 0;
+  cursor: pointer;
 }
