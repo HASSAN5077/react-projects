@@ -17,3 +17,4 @@ const Accordion = ({ title, info }) => {
 };
 
 export default Accordion;
+// accordion
