@@ -4,7 +4,7 @@
 // import ReviewMain from "./projects/reviewInfo/ReviewMain";
 // import AccordionMain from "./projects/accordion/AccordionMain";
 // import Menu from "./projects/MenuDisplay/MenuMain";
-import AxiosMain from './axios/AxiosMain'
+import AxiosMain from "./axios/AxiosMain";
 function App() {
   return (
     // <Birthday />
@@ -12,7 +12,7 @@ function App() {
     // <TourMain />
     // <ReviewMain />
     // <AccordionMain />
-    // 
+    //
     <AxiosMain />
   );
 }
@@ -20,3 +20,4 @@ function App() {
 export default App;
 
 // changing files for learning git
+// changing files for learning git from second machine
